@@ -5,6 +5,11 @@
         "dark": "/favicon.svg",
         "href": "https://hashpower.bot/"
     },
+    "topbarCtaButton": {
+        "type": "link",
+        "url": "https://t.me/HashPowerAI_bot",
+        "name": "Open DApp"
+    },
     "modeToggle": {
         "default": "dark"
     },
