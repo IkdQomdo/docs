@@ -1,36 +1,55 @@
 {
     "name": "HashPower AI",
     "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg",
-        "href": "https://yourcompany.com"
+        "light": "/favicon.svg",
+        "dark": "/favicon.svg",
+        "href": "https://hashpower.bot/"
+    },
+    "modeToggle": {
+        "default": "dark"
     },
     "favicon": "/favicon.svg",
     "colors": {
-        "primary": "#2AB673",
-        "light": "#55D799",
-        "dark": "#117866"
+        "primary": "#098E1B",
+        "light": "#098E1B",
+        "dark": "#098E1B",
+		"background": {
+			"dark": "#14171C"
+		}
     },
     "navigation": [
         {
-            "group": "Getting Started",
+            "group": "HashPower",
             "pages": [
-                "main"
+                "introduction"
+            ]
+        },
+        {
+            "group": "Chat Bot",
+            "pages": [
+                "chat-bot/how-to-use",
+                "chat-bot/rent-a-server",
+                "chat-bot/rent-a-node",
+                "chat-bot/technical-information"
+            ]
+        },
+        {
+            "group": "Tokenomics",
+            "pages": [
+                "tokenomics/tokenomics",
+                "tokenomics/roadmap"
+            ]
+        },
+        {
+            "group": "About",
+            "pages": [
+                "about/links"
             ]
         }
     ],
-    "tabs": [
-        {
-            "name": "API References",
-            "url": "api-references"
-        },
-        {
-            "name": "Content",
-            "url": "content"
-        },
-        {
-            "name": "Blog",
-            "url": "https://your-website.com/blog"
-        }
-    ]
+    "footerSocials": {
+        "website": "https://hashpower.bot",
+        "twitter": "https://twitter.com/hashpowerai",
+        "telegram": "https://t.me/hashpowerai"
+    }
 }
